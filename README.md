@@ -19,6 +19,10 @@ wsl --list --verbose
 wsl --setdefault Ubuntu-22.04
 ```
 
+3. Shutdown, terminate distro
+- `wsl --shutdown` — shuts down **all** WSL instances and the WSL 2 VM.
+- `wsl --terminate <distro>` — stops only the specified distro.
+
 # WSL - relocate ext4.vhdx file
 
 1. **Export your current Ubuntu-22.04 WSL distro to a tar file** (store it on the drive with enough space):
