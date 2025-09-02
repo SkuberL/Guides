@@ -5,6 +5,20 @@ Guides and usable resources that I found using Internet and AI-search
 MarkDown Editor
 
 [Online Markdown Editor - Dillinger](https://dillinger.io/)
+---
+
+# WSL - common commands
+
+1. **List your currently installed WSL distributions:**
+```powershell
+wsl --list --verbose
+```
+
+2. **Set `Ubuntu-22.04` as the default distribution:**
+```powershell
+wsl --setdefault Ubuntu-22.04
+```
+
 
 # WSL - Shrink ext4.vhdx file
 
