@@ -1,15 +1,12 @@
-# Guides
-Guides that I found using Internet and AI-search for programming
+Guides and usable resources that I found using Internet and AI-search
 
-## Resources
+# Resources
 
 MarkDown Editor
 
     https://dillinger.io/
 
-## WSL
-
-### Shrink ext4.vhdx file
+# WSL - Shrink ext4.vhdx file
 
 To shrink an ext4.vhdx file (common for WSL2 or Docker on Windows using dynamic virtual hard disks), you can follow these steps:
 
