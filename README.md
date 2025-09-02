@@ -4,7 +4,7 @@ Guides and usable resources that I found using Internet and AI-search
 
 MarkDown Editor
 
-[Online Markdown Editor - Dillinger](https://dillinger.io/){:target="_blank"}
+[Online Markdown Editor - Dillinger](https://dillinger.io/)
 
 # WSL - Shrink ext4.vhdx file
 
