@@ -19,6 +19,34 @@ wsl --list --verbose
 wsl --setdefault Ubuntu-22.04
 ```
 
+# WSL - relocate ext4.vhdx file
+
+1. **Export your current Ubuntu-22.04 WSL distro to a tar file** (store it on the drive with enough space):
+```powershell
+wsl --export Ubuntu-22.04 D:\wsl_backup\ubuntu2204.tar
+```
+
+2. **Unregister the current Ubuntu-22.04 distro** (this removes it from WSL but does not delete the export):
+```powershell
+wsl --unregister Ubuntu-22.04
+```
+
+3. **Import the distro to a new location** (where you want it moved, for example D:\WSL\Ubuntu22.04):
+```powershell
+wsl --import Ubuntu-22.04 D:\WSL\Ubuntu22.04 D:\wsl_backup\ubuntu2204.tar --version 2
+```
+
+4. **Verify your new distro location** by listing WSL distros:
+```powershell
+wsl --list --verbose
+```
+
+5. **Launch the distro as usual**:
+```powershell
+wsl -d Ubuntu-22.04
+```
+
+
 
 # WSL - Shrink ext4.vhdx file
 
